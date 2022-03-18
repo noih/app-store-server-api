@@ -9,7 +9,9 @@ export {
   PriceIncreaseStatus,
   OrderLookupStatus,
   NotificationType,
-  NotificationSubtype
+  NotificationSubtype,
+  JWSRenewalInfoDecodedPayload,
+  JWSTransactionDecodedPayload
 } from "./Models"
 
 export { decodeTransactions, decodeTransaction, decodeRenewalInfo, decodeNotificationPayload } from "./Decoding"
